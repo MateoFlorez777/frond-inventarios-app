@@ -24,6 +24,12 @@ export default function Navegacion() {
                         <li className='nav-item'>
                             <Link className='nav-link' to="/crearcitas">Crear Citas</Link>
                         </li>
+                        <li className='nav-item'>
+                            <Link className='nav-link' to="/login">Login</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link className='nav-link' to="/register">Register</Link>
+                        </li>
                     </ul>
                 </div>
             </div>

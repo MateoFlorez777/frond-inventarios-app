@@ -6,6 +6,8 @@ import EditarProducto from "./inventario/EditarProducto";
 import AgregarCita from "./citas/AgregarCita";
 import CrearCitas from "./citas/CrearCitas";
 import EditarCitas from "./citas/EditarCitas";
+import Login from "./autenticacion/login";
+import Register from "./autenticacion/register";
 
 
 
@@ -21,6 +23,8 @@ function App() {
         <Route exact path='/cita' element={<AgregarCita/>}/>
         <Route exact path='/crearcitas' element={<CrearCitas/>}/>
         <Route exact path='/editarcita/:id_Cita' element={<EditarCitas/>}/>
+        <Route exact path='/login' element={<Login />}/>
+        <Route exact path='/register' element={<Register/>}/>
       </Routes>
       </BrowserRouter>
     </div>
